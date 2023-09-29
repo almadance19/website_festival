@@ -2195,3 +2195,81 @@ hr {
     position: relative;
     bottom: -25px
 }
+
+
+/* Button */
+
+.button-box-card {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #18151f;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+  }
+  .button-box-card:hover {
+    background-color: #84309a;
+  }
+
+.button-box-card-dark {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+  }
+  .button-box-card-dark:hover {
+    background-color: black;
+    color: white;
+  }
+
+
+  input {
+    display: none;
+}
+
+label {
+    display: block;    
+    padding: 8px 22px;
+    margin: 0 0 1px 0;
+    cursor: pointer;
+    background: #000000;
+    border-radius: 3px;
+    color: #FFF;
+    transition: ease .5s;
+}
+
+
+label:hover {
+    background: #84309a;
+}
+
+.content {
+    background: #ffffff;
+    padding: 10px 25px;
+    border: 1px solid #A7A7A7;
+    margin: 0 0 1px 0;
+    border-radius: 3px;
+}
+
+
+#content-view #about-us .txt * {
+    width: 95%!important;
+}
+
+input + label + .content {
+    display: none;
+}
+
+input:checked + label + .content {
+    display: block;
+}
