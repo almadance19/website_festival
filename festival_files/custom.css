@@ -1,35 +1,10 @@
-@font-face {
-    font-display: swap;
-    font-family: Obact-RAB;
-    src: url(../../../../../../../themes/Obact-Theme/fonts/Obact-RAB.otf)
-}
-@font-face {
-    font-display: swap;
-    font-family: Obact-PBl;
-    src: url(../../../../../../../themes/Obact-Theme/fonts/Obact-PBl.otf)
-}
-@font-face {
-    font-display: swap;
-    font-family: Obact-PBo;
-    src: url(../../../../../../../themes/Obact-Theme/fonts/Obact-PBo.otf)
-}
-@font-face {
-    font-display: swap;
-    font-family: Obact-SB;
-    src: url(../../../../../../../themes/Obact-Theme/fonts/Obact-SB.otf)
-}
-@font-face {
-    font-display: swap;
-    font-family: Obact-PM;
-    src: url(../../../../../../../themes/Obact-Theme/fonts/Obact-PM.otf)
-}
-@font-face {
-    font-display: swap;
-    font-family: Obact-PR;
-    src: url(../../../../../../../themes/Obact-Theme/fonts/Obact-PR.otf)
-}
+/* Theming */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
+
+
+
 body {
-    font-family: Obact-PR;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     color: #fff;
     line-height: 1.5;
@@ -38,7 +13,7 @@ body {
     background: #84309a
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: Obact-RAB;
+    font-family: "Poppins", sans-serif;
     color: #361925;
     margin: 0;
     padding: 0
@@ -68,7 +43,7 @@ h6 {
     line-height: 1.1
 }
 p {
-    font-family: Obact-PR;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     color: #4d4d4d;
     line-height: 1.5;
@@ -110,7 +85,7 @@ a:active, a:hover, a:focus {
     outline: none
 }
 input, select, textarea {
-    font-family: Obact-PR;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     color: #84309a;
     width: 100%;
@@ -141,7 +116,7 @@ input[type="checkbox"], input[type="radio"] {
     color: #84309a
 }
 b, strong {
-    font-family: Obact-PBo
+    font-family: "Poppins", sans-serif
 }
 hr {
     margin: 0rem 0;
@@ -283,7 +258,7 @@ hr {
     line-height: 1.1
 }
 .sub-title-text {
-    font-family: Obact-PR;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
     margin-top: 30px
@@ -307,7 +282,7 @@ hr {
     padding-top: 50px
 }
 .button {
-    font-family: Obact-PBl;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     text-align: center;
     padding: 15px 40px;
@@ -341,7 +316,7 @@ hr {
 }
 .button-separator:after {
     content: "";
-    background: url(../../../../../../../themes/Obact-Theme/images/Button-Separator.png);
+    background: url(../../../../../../../themes/Festival-Theme/images/Button-Separator.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -409,7 +384,7 @@ hr {
     align-items: center
 }
 #status {
-    background: url(../../../../../../../themes/Obact-Theme/images/Preloader.png);
+    background: url(../../../../../../../themes/Festival-Theme/images/Preloader.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -703,7 +678,7 @@ hr {
     border-bottom: none
 }
 .header-toggle-menu ul li a {
-    font-family: Obact-RAB;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     color: #fff;
     display: block;
@@ -733,7 +708,7 @@ hr {
     text-align: center
 }
 .header-info h6 {
-    font-family: Obact-PR;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     color: #fff
 }
@@ -861,7 +836,7 @@ hr {
 }
 .hero-list ul li:before {
     content: "";
-    background: url(../../../../../../../themes/Obact-Theme/images/Hero-List-Icon.png);
+    background: url(../../../../../../../themes/Festival-Theme/images/Hero-List-Icon.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -883,7 +858,7 @@ hr {
     margin-bottom: 5px
 }
 .artists-djs-accordion-title a {
-    font-family: Obact-PBo;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     color: #84309a;
     padding: 12px 15px;
@@ -965,7 +940,7 @@ hr {
     background: linear-gradient(to bottom, #ffffff00 0%, #030303 65%)
 }
 .artists-djs-info h4 {
-    font-family: Obact-PBo;
+    font-family: "Poppins", sans-serif;
     color: #fff;
     font-size: 17px;
     position: relative;
@@ -977,7 +952,7 @@ hr {
 }
 .artists-djs-info h4:before {
     content: "";
-    background: url(../../../../../../../themes/Obact-Theme/images/Artists-Djs-Box-Title-Icon.png);
+    background: url(../../../../../../../themes/Festival-Theme/images/Artists-Djs-Box-Title-Icon.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1040,7 +1015,7 @@ hr {
     -o-transition: all 0.5s ease-in-out
 }
 .program-bg {
-    background: url(../../../../../../../themes/Obact-Theme/images/Program-Bg.jpg);
+    background: url(../../../../../../../themes/Festival-Theme/images/Program-Bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover
@@ -1073,7 +1048,7 @@ hr {
 }
 .program-box h5:before {
     content: "";
-    background: url(../../../../../../../themes/Obact-Theme/images/Program-Title-Icon.png);
+    background: url(../../../../../../../themes/Festival-Theme/images/Program-Title-Icon.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1138,13 +1113,13 @@ hr {
     display: none
 }
 .workshops-bg {
-    background: url(../../../../../../../themes/Obact-Theme/images/Workshops-Bg.jpg);
+    background: url(../../../../../../../themes/Festival-Theme/images/Workshops-Bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover
 }
 .workshops-days-list ul li a {
-    font-family: Obact-RAB;
+    font-family: "Poppins", sans-serif;
     font-size: 17px;
     line-height: 1;
     color: #84309a;
@@ -1203,11 +1178,11 @@ hr {
     display: block
 }
 .workshops-table .table th {
-    font-family: Obact-RAB;
+    font-family: "Poppins", sans-serif;
     padding: 10px
 }
 .workshops-table .table th span {
-    font-family: Obact-PR;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     opacity: .8
 }
@@ -1253,7 +1228,7 @@ hr {
 .workshops-guidance-info.guidance-text-box p {
     font-size: 16px;
     color: #84309a;
-    font-family: 'Obact-PBo'
+    font-family: '"Poppins", sans-serif'
 }
 .workshops-guidance-icon i {
     display: block;
@@ -1309,7 +1284,7 @@ hr {
     margin: 30px 0
 }
 .location-list li {
-    font-family: Obact-PM;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     color: #84309a;
     padding-left: 32px;
@@ -1323,7 +1298,7 @@ hr {
     content: "";
     width: 20px;
     height: 21px;
-    background: url(../../../../../../../themes/Obact-Theme/images/Location-List-Icon.png);
+    background: url(../../../../../../../themes/Festival-Theme/images/Location-List-Icon.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -1345,7 +1320,7 @@ hr {
     margin-bottom: 0
 }
 .tickets-prices-bg {
-    background: url(../../../../../../../themes/Obact-Theme/images/Tickets-Prices-Bg.jpg);
+    background: url(../../../../../../../themes/Festival-Theme/images/Tickets-Prices-Bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%
@@ -1388,7 +1363,7 @@ hr {
     padding: 0 15px
 }
 .tickets-prices-middle ul li {
-    font-family: Obact-PM;
+    font-family: "Poppins", sans-serif;
     padding: 20px;
     border-bottom: 1px solid #2f2d50;
     position: relative
@@ -1404,7 +1379,7 @@ hr {
     top: 25px
 }
 .tickets-prices-middle ol li {
-    font-family: Obact-PBo;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
     color: #fff;
     text-align: center;
@@ -1430,25 +1405,25 @@ hr {
     border: 1px solid rgb(255 255 255 / 15%)
 }
 .prices-table .table tr th {
-    font-family: Obact-RAB;
+    font-family: "Poppins", sans-serif;
     font-size: 30px;
     background: #1e1c4f;
     padding: 12px 10px;
     border-bottom: 3px solid #825d08
 }
 .prices-table .table tr th span {
-    font-family: Obact-PR;
+    font-family: "Poppins", sans-serif;
     font-size: 17px;
     color: rgb(255 255 255 / 80%);
     display: block
 }
 .prices-table .table tr td {
-    font-family: Obact-PBo;
+    font-family: "Poppins", sans-serif;
     font-size: 25px;
     padding: 10px
 }
 .prices-table .table tr td:first-child {
-    font-family: Obact-RAB;
+    font-family: "Poppins", sans-serif;
     font-size: 20px
 }
 .prices-table .table tr td:first-child>div {
@@ -1471,7 +1446,7 @@ hr {
     border-radius: 0 0 0 15px
 }
 .full-day-pass-bg {
-    background: url(../../../../../../../themes/Obact-Theme/images/Full-Day-Pass-Bg.jpg);
+    background: url(../../../../../../../themes/Festival-Theme/images/Full-Day-Pass-Bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%
@@ -1530,7 +1505,7 @@ hr {
     top: -13px
 }
 .pass-middle h6 {
-    font-family: Obact-SB;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     color: #151515;
     margin-top: 10px
@@ -1539,7 +1514,7 @@ hr {
     padding: 18px
 }
 .pass-bottom ul li {
-    font-family: Obact-SB;
+    font-family: "Poppins", sans-serif;
     font-size: 12px;
     color: #3b3b3b;
     padding: 12px 0;
@@ -1551,7 +1526,7 @@ hr {
 }
 .pass-bottom ul li:before {
     content: "";
-    background: url(../../../../../../../themes/Obact-Theme/images/Pass-List-Icon.png);
+    background: url(../../../../../../../themes/Festival-Theme/images/Pass-List-Icon.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1562,7 +1537,7 @@ hr {
     top: 12px
 }
 .party-pass-bg {
-    background: url(../../../../../../../themes/Obact-Theme/images/Party-Pass-Bg.jpg);
+    background: url(../../../../../../../themes/Festival-Theme/images/Party-Pass-Bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%
@@ -1611,7 +1586,7 @@ hr {
     content: "";
     width: 100px;
     height: 100px;
-    background: url(../../../../../../../themes/Obact-Theme/images/Arrow.png);
+    background: url(../../../../../../../themes/Festival-Theme/images/Arrow.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -1628,7 +1603,7 @@ hr {
     border-radius: 10px
 }
 .hotel-info-top-right h5 {
-    font-family: Obact-PBo;
+    font-family: "Poppins", sans-serif;
     position: relative;
     padding-left: 20px;
     line-height: 1.5;
@@ -1636,7 +1611,7 @@ hr {
     border-left: 3px solid #b49a49
 }
 .hotel-info-topper h6 {
-    font-family: Obact-PBo
+    font-family: "Poppins", sans-serif
 }
 .hotel-info-topper .button {
     background: #1b1846;
@@ -1668,7 +1643,7 @@ hr {
     padding: 12px 0
 }
 .hotel-table .table tr th {
-    font-family: Obact-RAB;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     background: #825d08;
     background: -moz-linear-gradient(-45deg, #825d08 0%, #fff9b0 29%, #634d00 63%, #dabf2e 100%);
@@ -1683,7 +1658,7 @@ hr {
     text-decoration: underline
 }
 .hotel-table .table tr td:nth-child(2) {
-    font-family: Obact-PBo;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     width: 145px
 }
@@ -1722,7 +1697,7 @@ hr {
     color: #dcc235 !important
 }
 .faq-bg {
-    background: url(../../../../../../../themes/Obact-Theme/images/Faq-Bg.jpg);
+    background: url(../../../../../../../themes/Festival-Theme/images/Faq-Bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover
@@ -1769,7 +1744,7 @@ hr {
     background: #fff
 }
 .accordion-panel.faq-accordion-box.active .faq-accordion-title a {
-    font-family: Obact-PBo;
+    font-family: "Poppins", sans-serif;
     color: #151437;
     border: none;
     border-bottom: 1px solid #e8e8e8
@@ -1790,7 +1765,7 @@ hr {
     padding-bottom: 30px
 }
 .form-title h5 {
-    font-family: Obact-RAB;
+    font-family: "Poppins", sans-serif;
     font-size: 22px
 }
 .contact-form .form-checkbox-box {
@@ -1819,7 +1794,7 @@ hr {
     opacity: 0
 }
 .form-checkbox-box .wpcf7-list-item-label {
-    font-family: Obact-PR;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     color: #84309a;
     display: block;
@@ -1939,7 +1914,7 @@ hr {
     width: calc(100% - 80px)
 }
 .social-media-info h4 {
-    font-family: Obact-RAB;
+    font-family: "Poppins", sans-serif;
     font-size: 19px;
     color: #fff;
     margin-bottom: 5px
@@ -1958,7 +1933,7 @@ hr {
     object-fit: cover
 }
 .footer {
-    background: url(../../../../../../../themes/Obact-Theme/images/Footer-Bg.jpg);
+    background: url(../../../../../../../themes/Festival-Theme/images/Footer-Bg.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover
@@ -1967,7 +1942,7 @@ hr {
     padding: 40px 0
 }
 .footer-title {
-    font-family: Obact-PBo;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
     color: #fff;
     margin-bottom: 15px
@@ -2108,7 +2083,7 @@ hr {
     margin-bottom: 15px
 }
 .dsgvo-box h4 {
-    font-family: Obact-SB;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     margin-top: 15px;
     margin-bottom: 5px
@@ -2205,14 +2180,14 @@ hr {
     border-radius: 10px
 }
 .discount-popup-info ul li strong {
-    font-family: Obact-RAB;
+    font-family: "Poppins", sans-serif;
     color: #191454;
     font-size: 40px;
     line-height: 1.1;
     display: block
 }
 .discount-popup-info ul li span {
-    font-family: Obact-RAB;
+    font-family: "Poppins", sans-serif;
     color: #181818;
     font-size: 14px
 }
