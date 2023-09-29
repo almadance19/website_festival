@@ -1,0 +1,678 @@
+@media screen and (max-width:1799px) {
+    .hero-info {
+        margin-top: -200px
+    }
+}
+@media screen and (max-width:1200px) {
+    h5 {
+        font-size: 16px
+    }
+    .toggle img {
+        max-width: 30px
+    }
+    .container-sub {
+        padding: 0% 0%
+    }
+    .button {
+        padding: 12px 32px;
+        font-size: 13px
+    }
+    .empty-space {
+        padding: 50px 0
+    }
+    .empty-space-top {
+        padding-top: 50px
+    }
+    .empty-space-bottom {
+        padding-bottom: 50px
+    }
+    .title-separator:after {
+        width: 200px
+    }
+    .title-box {
+        padding-bottom: 30px
+    }
+    .small-size {
+        font-size: 14px
+    }
+    .title-text {
+        font-size: 24px
+    }
+    .title-small-text {
+        font-size: 25px
+    }
+    .sub-title-text {
+        font-size: 16px
+    }
+    .title-big-text {
+        font-size: 20px
+    }
+    .hero-logo img {
+        max-width: 200px
+    }
+    .hero-info {
+        margin-top: -100px
+    }
+    .artists-djs-col {
+        width: 25%
+    }
+    .artists-djs-image img {
+        height: 230px
+    }
+    .impressions-image img {
+        height: 250px
+    }
+    .pass-top p {
+        font-size: 12px
+    }
+    .pass-bottom ul li {
+        font-size: 10px
+    }
+    .pass-middle h1 {
+        font-size: 26px
+    }
+    .pass-middle h6 {
+        font-size: 13px
+    }
+    .pass-bottom ul li:before {
+        width: 12px;
+        height: 12px
+    }
+    .pass-top h4 {
+        font-size: 17px
+    }
+    .hero-list ul li {
+        font-size: 12px;
+        margin: 12px 0
+    }
+    .discount-popup-info ul li strong {
+        font-size: 20px
+    }
+    .discount-popup-info h1 {
+        font-size: 25px
+    }
+}
+@media screen and (max-width:992px) {
+    body {
+        font-size: 12px
+    }
+    p {
+        font-size: 12px
+    }
+    input, select, textarea {
+        font-size: 12px
+    }
+    .empty-space {
+        padding: 30px 0
+    }
+    .empty-space-top {
+        padding-top: 30px
+    }
+    .empty-space-bottom {
+        padding-bottom: 30px
+    }
+    .container-sub {
+        padding: 0% 0%
+    }
+    .title-info {
+        font-size: 15px
+    }
+    .title-text {
+        font-size: 22px
+    }
+    .extra-large-size, .large-size {
+        font-size: 13px
+    }
+    .title-info {
+        font-size: 14px
+    }
+    .title-box {
+        padding-bottom: 20px
+    }
+    .title-separator:after {
+        width: 120px;
+        margin: 12px auto 0 auto
+    }
+    .sub-title-text {
+        font-size: 15px
+    }
+    .artists-djs-info h4 {
+        font-size: 16px
+    }
+    .program-box h5 {
+        font-size: 16px
+    }
+    .workshops-table .table th {
+        padding: 5px
+    }
+    .workshops-table .table th, .workshops-table .table td {
+        font-size: 11px
+    }
+    .workshops-guidance-box {
+        margin: 0
+    }
+    .workshops-guidance-button .button {
+        font-size: 14px
+    }
+    .tickets-prices-middle ul li {
+        padding: 5px 10px
+    }
+    .tickets-prices-middle {
+        padding: 0 8px
+    }
+    .tickets-prices-middle ol li {
+        font-size: 12px
+    }
+    .button.whatsapp-button {
+        padding: 14px 22px
+    }
+    .social-media-info {
+        width: calc(100% - 20px)
+    }
+    .hero-video-box {
+        height: 400px
+    }
+    .header-info h6 {
+        font-size: 14px
+    }
+    .header-language {
+        margin-right: 20px
+    }
+    .logo img {
+        max-width: 100px
+    }
+    .artists-djs-image img {
+        height: 180px
+    }
+    .artists-djs-info {
+        padding: 30px 10px 20px 10px
+    }
+    .impressions-image img {
+        height: 180px
+    }
+    .location-list li {
+        font-size: 12px
+    }
+    .pass-slider {
+        justify-content: center
+    }
+    .pass-col {
+        width: 33%;
+        margin: 10px 0
+    }
+    .program-box ul li small {
+        font-size: 12px
+    }
+    .hero-bottom {
+        padding-bottom: 30px
+    }
+    .program-inner-box {
+        padding: 5px
+    }
+    .artists-djs-accordion-title a {
+        font-size: 12px;
+        padding: 10px 10px
+    }
+    .form-title h5 {
+        font-size: 14px
+    }
+    .location-info-box p, .location-info-box blockquote {
+        font-size: 14px
+    }
+    .hotel-table .table tr th {
+        font-size: 12px
+    }
+    .workshops-guidance-col {
+        margin-top: 5px;
+        margin-bottom: 5px
+    }
+    .workshops-days-list ul li a {
+        font-size: 14px
+    }
+    .artists-djs-accordion-title a:after {
+        font-size: 15px;
+        line-height: 20px;
+        width: 20px;
+        height: 20px
+    }
+    .hotel-table .table tr td:first-child {
+        font-size: 12px
+    }
+    .hotel-info-topper .button {
+        padding: 10px 10px;
+        font-size: 12px
+    }
+    .form-checkbox-box .wpcf7-list-item-label {
+        font-size: 12px
+    }
+    .social-media-info h4 {
+        font-size: 14px
+    }
+    .social-media-image figure {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        margin-bottom: 0
+    }
+    .social-media-image {
+        width: 90px
+    }
+    .form-title {
+        padding-bottom: 15px
+    }
+    .social-media-info a {
+        font-size: 13px
+    }
+    .footer-title {
+        font-size: 14px
+    }
+    .footer-menu ul li a {
+        font-size: 12px
+    }
+    .social-media-list li {
+        margin: 0 3px
+    }
+    .social-media-list li a {
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        line-height: 30px
+    }
+    .footer-info {
+        padding-right: 0%
+    }
+    .footer-box {
+        padding: 30px 0
+    }
+}
+@media screen and (max-width:767px) {
+    .empty-space {
+        padding: 20px 0
+    }
+    .empty-space-top {
+        padding-top: 20px
+    }
+    .empty-space-bottom {
+        padding-bottom: 20px
+    }
+    .title-text {
+        font-size: 19px
+    }
+    .title-separator:after {
+        width: 150px;
+        margin: 14px auto 0 auto
+    }
+    .sub-title-text {
+        margin-top: 20px;
+        letter-spacing: 1px;
+        font-size: 12px
+    }
+    .title-small-text {
+        font-size: 18px
+    }
+    .title-big-text {
+        font-size: 14px
+    }
+    .small-size {
+        font-size: 12px
+    }
+    .title-info {
+        font-size: 12px
+    }
+    .button-box {
+        padding-top: 20px
+    }
+    .button {
+        font-size: 14px
+    }
+    .button-separator:after {
+        width: 40px;
+        height: 40px;
+        left: -15px;
+        top: -20px
+    }
+    .header-language {
+        margin-right: 10px
+    }
+    .header-language ul li+li:before {
+        display: none
+    }
+    .header-info h6 {
+        font-size: 10px
+    }
+    .header {
+        padding: 10px 0
+    }
+    .toggle-box {
+        width: 80%
+    }
+    .logo img {
+        max-width: 50px
+    }
+    .toggle-close-button {
+        top: 15px;
+        right: 15px
+    }
+    .header-toggle-menu ul li a {
+        font-size: 12px;
+        padding: 10px 0
+    }
+    .toggle img {
+        max-width: 20px
+    }
+    .toggle span {
+        font-size: 10px
+    }
+    .hero-logo img {
+        max-width: 150px
+    }
+    .hero-video-box {
+        height: auto
+    }
+    .hero-list ul li {
+        font-size: 10px
+    }
+    .hero-info {
+        margin-top: 0;
+        margin-bottom: 50px
+    }
+    .hero-list {
+        margin: 0 15px 10px 15px
+    }
+    .hero-box {
+        padding-top: 0
+    }
+    .program-box {
+        margin: 10px 0
+    }
+    .workshops-days-list ul li+li {
+        margin-left: 5px
+    }
+    .workshops-days-list ul li a {
+        font-size: 12px;
+        padding: 6px 12px
+    }
+    .workshops-guidance-button {
+        margin: 10px 0
+    }
+    .workshops-guidance-button .button {
+        padding: 10px 30px
+    }
+    .workshops-top-info {
+        margin-bottom: 20px
+    }
+    .location-list li:before {
+        width: 18px;
+        height: 14px
+    }
+    .tickets-prices-col {
+        padding: 0 10px
+    }
+    .hotel-info {
+        padding-left: 0%;
+        padding-top: 30px
+    }
+    .artists-djs-col {
+        width: 33%
+    }
+    .artists-djs-box {
+        margin: 5px -6px
+    }
+    .artists-djs-detail {
+        padding: 15px 0
+    }
+    .artists-djs-image img {
+        height: 100px
+    }
+    .artists-djs-info {
+        padding: 10px
+    }
+    .artists-djs-info h4 {
+        font-size: 12px
+    }
+    .artists-djs-box:hover .artists-djs-info h4:before {
+        display: none
+    }
+    .faq-accordion-title a {
+        font-size: 14px;
+        padding: 10px 20px 10px 10px
+    }
+    .faq-accordion-title a:after {
+        font-size: 14px;
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 15px
+    }
+    .form-title h5 {
+        font-size: 17px
+    }
+    .whatsapp-fixed img {
+        width: 60px
+    }
+    .social-media-box {
+        padding: 15px 0
+    }
+    .footer-box {
+        padding: 20px 0
+    }
+    .footer-info {
+        padding-right: 0
+    }
+    .footer-logo {
+        text-align: center
+    }
+    .footer-logo img {
+        max-width: 200px
+    }
+    .footer-social-media {
+        text-align: center
+    }
+    .copyright-menu ul li+li:before {
+        margin: 0 5px
+    }
+    .copyright-menu ul li a {
+        font-size: 11px
+    }
+    .copyright-box {
+        padding-top: 3px
+    }
+    .pass-col br {
+        display: none
+    }
+    .hero-list ul li:before {
+        width: 20px;
+        height: 20px
+    }
+    .hero-list {
+        margin: 0 15px 10px 15px;
+        padding-bottom: 20px
+    }
+    .workshops-guidance-info.guidance-text-box p {
+        font-size: 13px
+    }
+    .location-image-box {
+        padding-right: 0%
+    }
+    .location-image-box-inner {
+        margin-bottom: 0
+    }
+    .location-info-box {
+        padding-top: 15px
+    }
+    .artists-djs-info h4 {
+        font-size: 11px
+    }
+    .hotel-bottom-box:after {
+        display: none
+    }
+    .pass-col {
+        width: 20%;
+        margin: 10px 0;
+        padding: 0 2px
+    }
+    .impressions-image img {
+        height: 120px
+    }
+    .impressions-box {
+        padding: 10px 0
+    }
+    .location-info-box p, .location-info-box blockquote {
+        font-size: 12px
+    }
+    .table-title-box {
+        padding-top: 20px;
+        padding-bottom: 10px
+    }
+    .button.whatsapp-button {
+        padding: 10px 10px
+    }
+    .program-box ul li {
+        padding: 2px 2px;
+        margin: 2px 0
+    }
+    .program-box ul li small, .program-box ul li strong {
+        font-size: 7px
+    }
+    .program-box h5 {
+        font-size: 8px
+    }
+    .program-box h5:before {
+        width: 20px;
+        height: 20px
+    }
+    .program-box ul li p {
+        margin-top: 0
+    }
+    .program-box ul li ul li {
+        margin: 4px 0
+    }
+    .program-box ul li p {
+        font-size: 8px;
+        margin-top: 0;
+        padding-top: 4px
+    }
+    .program-box ul li b:before {
+        width: 4px;
+        height: 4px
+    }
+    .program-box ul li ul li b, .program-box ul li ul li small {
+        font-size: 5px
+    }
+    .program-box ul li b {
+        font-size: 8px
+    }
+    .program-inner-box {
+        padding: 2px
+    }
+    .program-box h5 {
+        margin-bottom: 5px
+    }
+    .workshops-guidance-box {
+        padding: 10px 5px
+    }
+    .workshops-guidance-info h5 {
+        font-size: 10px
+    }
+    .workshops-guidance-info p {
+        font-size: 10px
+    }
+    .workshops-table .table th, .workshops-table .table td, .workshops-table .table th span {
+        font-size: 3px;
+        padding: 2px
+    }
+    .workshops-table .table th span {
+        font-size: 5px
+    }
+    .workshops-table .table td>div {
+        padding: 2px;
+        min-height: 35px
+    }
+    .workshops-table tr td:first-child {
+        width: auto
+    }
+    .pass-top {
+        padding: 2px;
+        margin-bottom: 3px
+    }
+    .pass-top h4 {
+        font-size: 7px
+    }
+    .pass-top p {
+        font-size: 7px;
+        margin-top: 5px
+    }
+    .pass-middle {
+        padding-top: 8px
+    }
+    .pass-middle h1 {
+        font-size: 10px
+    }
+    .pass-middle h6 {
+        font-size: 7px;
+        margin-top: 5px
+    }
+    .pass-middle h1 sup {
+        top: -8px
+    }
+    .pass-bottom ul {
+        padding: 0
+    }
+    .pass-bottom ul li:before {
+        width: 5px;
+        height: 5px
+    }
+    .pass-bottom ul li {
+        font-size: 7px;
+        padding: 5px 0;
+        padding-left: 6px
+    }
+    .pass-bottom ul li:before {
+        top: 7px
+    }
+    .pass-middle-col:after {
+        border-bottom: 3px dashed #9c9c9c
+    }
+    .full-day-pass-bg .pass-top {
+        min-height: 72px
+    }
+    .full-day-pass-bg .pass-middle-col {
+        height: 200px
+    }
+    .party-pass-bg .pass-top {
+        min-height: 78px
+    }
+    .party-pass-bg .pass-middle-col {
+        height: 95px
+    }
+    .impressum-box {
+        margin-top: 60px
+    }
+    .discount-popup-info {
+        padding: 15px 20px 0 15px
+    }
+    .discount-popup-info h6 {
+        font-size: 14px
+    }
+    .discount-popup-info h1 {
+        font-size: 20px;
+        margin-bottom: 5px
+    }
+    .discount-popup-info ul li {
+        padding: 10px;
+        margin: 0 5px;
+        border-radius: 5px
+    }
+    .discount-popup-info ul li strong {
+        font-size: 14px
+    }
+    .discount-popup-info ul li span {
+        font-size: 12px
+    }
+    .agb-box, .dsgvo-box {
+        margin-top: 20px
+    }
+}
