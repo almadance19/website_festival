@@ -2273,3 +2273,33 @@ input + label + .content {
 input:checked + label + .content {
     display: block;
 }
+
+/* TICKETS CARDS */
+.section-2 {
+    margin-top: 5px;
+    max-width: 100%;
+  }
+
+.container-cards_tickets {
+    
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    min-height: 500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+.col-ticket {
+    background-color: white ;
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.card-tickets {
+  box-shadow: 1px 1px 5px 0px var(--gray);
+}
