@@ -346,11 +346,17 @@ hr {
     padding-bottom: 50px
 }
 .button-gradient-bg {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.button-gradient-bg-none {
     background: #825d08;
     background: -moz-linear-gradient(-45deg, #825d08 3%, #fff9b0 29%, #c8b337 62%, #dabf2e 99%);
     background: -webkit-linear-gradient(-45deg, #825d08 3%, #fff9b0 29%, #c8b337 62%, #dabf2e 99%);
     background: linear-gradient(135deg, #825d08 3%, #fff9b0 29%, #c8b337 62%, #dabf2e 99%)
 }
+
 .gradient-bg {
     background: #825d08;
     background: -moz-linear-gradient(-45deg, #825d08 4%, #fff9b0 29%, #634d00 63%, #dabf2e 99%);
@@ -824,13 +830,15 @@ hr {
     background: #100d2a6e;
     border: 1px solid #304563;
     padding: 2%;
-    max-width: 700px;
-    margin: auto
+    max-width: 800px;
+    margin: auto;
+    border-radius: 40px;
 }
 .hero-list ul li {
     font-size: 16px;
     color: #fff;
     margin: 20px 0;
+    text-align: center;
     padding-left: 25px;
     position: relative
 }
@@ -2309,3 +2317,34 @@ input:checked + label + .content {
 .card-tickets {
   box-shadow: 1px 1px 5px 0px var(--gray);
 }
+
+
+
+
+
+/* Header 
+stycky means it will stay up in the page, at the top 0px with width 100% of available space
+*/
+
+/* footer */
+
+footer {
+    padding-block: 1rem;
+    background-color: var(--black);
+    grid-area: footer;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 9px;
+  }
+  
+  footer a {
+    display: inline;
+    margin: 0;
+    color: #ffffff;
+  }
+
+  footer p {
+    display: inline;
+    margin: 0;
+    color: #ffffff;
+  }

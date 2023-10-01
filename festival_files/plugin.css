@@ -9286,11 +9286,7 @@ textarea.form-control-lg {
         display: none !important
     }
 }
-@font-face {
-    font-display: swap;
-    font-family: bootstrap-icons;
-    src: url(../../../../../../../themes/Obact-Theme/fonts/bootstrap-icons.woff2?30af91bf14e37666a085fb8a161ff36d) format("woff2"), url(../../../../../../../themes/Obact-Theme/fonts/bootstrap-icons.woff?30af91bf14e37666a085fb8a161ff36d) format("woff")
-}
+
 .bi::before, [class*=" bi-"]::before, [class^=bi-]::before {
     display: inline-block;
     font-family: bootstrap-icons !important;
