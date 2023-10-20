@@ -642,11 +642,11 @@ header.fixed .navbar {
 /* hero slider wraper */
 .banner_section {
     /*margin-top: 70px;*/
-    padding-top: 70px;
-    padding-bottom: 120px;
+    padding-top: 40px;
+    padding-bottom: 30px;
     position: relative;
-    background-color: var(--primery);
-
+    background: rgb(36,13,0);
+    background: radial-gradient(circle, rgba(36,13,0,1) 25%, rgba(82,79,28,1) 50%, rgba(36,13,0,1) 75%);
     background-size: 300% 300%;
   	animation: AnimateBG 7s ease infinite;
 }
@@ -1796,7 +1796,8 @@ iframe#youtubevideo {
     background-size: 300% 300%;
     background: rgb(36,13,0);
 background: radial-gradient(circle, rgba(36,13,0,1) 25%, rgba(82,79,28,1) 50%, rgba(36,13,0,1) 75%);
-  	animation: AnimateBG 5s ease infinite;
+  	
+    animation: AnimateBG 7s ease infinite;
 }
 
 
