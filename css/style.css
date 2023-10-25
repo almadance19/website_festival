@@ -646,7 +646,7 @@ header.fixed .navbar {
     padding-bottom: 30px;
     position: relative;
     background: rgb(36,13,0);
-    background: radial-gradient(circle, rgba(36,13,0,1) 25%, rgba(82,79,28,1) 50%, rgba(36,13,0,1) 75%);
+    background: var(--primery) ; 
     background-size: 300% 300%;
   	animation: AnimateBG 7s ease infinite;
 }

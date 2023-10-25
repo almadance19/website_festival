@@ -1,13 +1,26 @@
 /* Theming */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
 
+/* -----------Css-variable------ */
 
+:root {
+    --light-yellow: #eef2fe;
+    --primery: #000000;
+    --dark-black: #000000;
+    --dark-greay: #9599ab;
+    --greay: #afafaf;
+    --text-greay: #848484;
+    --black: #000000;
+    --bg-white: #ffffff;
+    --text-white: #fff;
+    --red-color: #ff0000;
+}
 
 
 .hero-box {
     position: relative;
     background: rgb(36,13,0);
-    background: radial-gradient(circle, rgba(36,13,0,1) 25%, rgba(82,79,28,1) 50%, rgba(36,13,0,1) 75%);
+    background: var(--primery);
     background-size: 300% 300%;
   	animation: AnimateBG 7s ease infinite;
 }
