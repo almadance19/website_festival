@@ -104,16 +104,16 @@
             <h2>Drop a message</h2>
             <p>Fill up form below, our team will get back soon</p>
           </div>
-          <form data-aos="fade-up" data-aos-duration="1500">
+          <form id ="form_message" data-aos="fade-up" data-aos-duration="1500">
             <div class="row">
               <div class="col-md-4">
                 <div class="form-group">
-                  <input type="text" style="color: black;"  class="form-control" placeholder="Name *" required>
+                  <input id="first_name" type="text" style="color: black;"  class="form-control" placeholder="Name *" required>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="form-group">
-                  <input type="email" style="color: black;"  class="form-control" placeholder="Email *" required>
+                  <input id="email" type="email" style="color: black;"  class="form-control" placeholder="Email *" required>
                 </div>
               </div>
               <div class="col-md-4">
@@ -128,7 +128,7 @@
               </div>
               <div class="col-md-12">
                 <div class="form-group">
-                  <textarea class="form-control" style="color: black;" placeholder="Message"></textarea>
+                  <textarea id="message" class="form-control" style="color: black;" placeholder="Message"></textarea>
                 </div>
               </div>
               <div class="col-md-8">
@@ -142,12 +142,16 @@
               </div>
               <div class="col-md-4 text-right">
                 <div class="btn_block">
-                  <button class="btn puprple_btn ml-0">Submit</button>
-                  <div class="btn_bottom"></div>
+                  <!-- <div class="btn_bottom"></div> -->
+                  <div id="display_success"></div>
+                  <div id="btn_bottom"></div>
                 </div>
               </div>
             </div>
           </form>
+          <br>
+          <br>
+          <button  id="summit" class="btn puprple_btn ml-0">Submit</button>
         </div>
       </div>
     </section>
@@ -323,7 +327,7 @@ You can also take the S-Bahn S1/S9 from the city centre (Hauptwache or Konstable
   <script src="js/main.js"></script>
 
   <script>
-    €("#typed").typed({
+    $("#typed").typed({
       strings: ["Type Writing Text", "Auto Type Text", "Add any text you like here."],
       typeSpeed: 100,
       startDelay: 0,
@@ -335,12 +339,12 @@ You can also take the S-Bahn S1/S9 from the city centre (Hauptwache or Konstable
     });
 
     // Fixed Discount Dish JS
-    €(document).ready(function () {
+    $(document).ready(function () {
       let cardBlock = document.querySelectorAll('.task_block');
       let topStyle = 120;
 
       cardBlock.forEach((card) => {
-        card.style.top = `€{topStyle}px`;
+        card.style.top = `${topStyle}px`;
         topStyle += 30;
       })
 
@@ -348,13 +352,64 @@ You can also take the S-Bahn S1/S9 from the city centre (Hauptwache or Konstable
     );
 
     // Scroll Down Window 
-    €(document).ready(function () {
+    $(document).ready(function () {
       // Attach a click event handler to the button
-      €('#scrollButton').click(function () {
+      $('#scrollButton').click(function () {
         // Scroll down smoothly 200 pixels from the current position
-        €('html, body').animate({ scrollTop: €(window).scrollTop() + 600 }, 800); // Adjust the speed (800ms) as needed
+        $('html, body').animate({ scrollTop: $(window).scrollTop() + 600 }, 800); // Adjust the speed (800ms) as needed
       });
     });
+
+
+    //// MESSAGES -----------------------------------------------
+
+const url_message = 'https://script.google.com/macros/s/AKfycbwq6AlBlV4FTQ4IAAAdJciHbk05YmygOFc7Oztpt6nPX7S8CS8fdZAlQs5A7p3-Ayc/exec';
+
+const form_message = document.getElementById("summit");
+
+form_message.addEventListener('click', handleFormSubmit);
+
+
+
+function handleFormSubmit(formObject){
+var firstname = document.getElementById("first_name").value;
+var message = document.getElementById("message").value;
+var email = document.getElementById("email").value;
+
+if(firstname != '' && message != ''   && email != '' ) {
+  document.getElementById("summit").disabled = true;
+  document.getElementById("display_success").innerHTML = "We received your message. We will get back to you";
+//send menssage 
+  let arr = [ firstname,message,email];
+  console.log(arr);
+  sData(arr);
+
+  var firstname = document.getElementById("first_name").disabled = true;
+  var message = document.getElementById("message").disabled = true;
+  var email = document.getElementById("email").disabled = true;
+
+} else {
+  var alert = "There are misssing informations, please fill out the form";
+  document.getElementById("display_success").innerHTML = alert;
+}
+}
+
+
+      // Save Booking hl
+function sData(arr) {
+  let formData = new FormData();
+  console.log(arr);
+  formData.append('data', JSON.stringify(arr));
+  console.log("posting registration in API")
+  fetch(url_message, {
+    method: 'POST'
+    , body: formData
+  }).then(function (rep) {
+    return rep.json()
+  }).then(function (data) {
+     console.log("Subscribed");
+  })
+};
 
   </script>
 
