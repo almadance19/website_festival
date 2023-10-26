@@ -1022,7 +1022,7 @@ You can also take the S-Bahn S1/S9 from the city centre (Hauptwache or Konstable
   <script src="js/main.js"></script>
 
   <script>
-    €("#typed").typed({
+    $("#typed").typed({
       strings: ["Type Writing Text", "Auto Type Text", "Add any text you like here."],
       typeSpeed: 100,
       startDelay: 0,
@@ -1034,12 +1034,12 @@ You can also take the S-Bahn S1/S9 from the city centre (Hauptwache or Konstable
     });
 
     // Fixed Discount Dish JS
-    €(document).ready(function () {
+    $(document).ready(function () {
       let cardBlock = document.querySelectorAll('.task_block');
       let topStyle = 120;
 
       cardBlock.forEach((card) => {
-        card.style.top = `€{topStyle}px`;
+        card.style.top = `${topStyle}px`;
         topStyle += 30;
       })
 
@@ -1047,11 +1047,11 @@ You can also take the S-Bahn S1/S9 from the city centre (Hauptwache or Konstable
     );
 
     // Scroll Down Window 
-    €(document).ready(function () {
+    $(document).ready(function () {
       // Attach a click event handler to the button
-      €('#scrollButton').click(function () {
+      $('#scrollButton').click(function () {
         // Scroll down smoothly 200 pixels from the current position
-        €('html, body').animate({ scrollTop: €(window).scrollTop() + 600 }, 800); // Adjust the speed (800ms) as needed
+        $('html, body').animate({ scrollTop: $(window).scrollTop() + 600 }, 800); // Adjust the speed (800ms) as needed
       });
     });
 
