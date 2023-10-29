@@ -63,6 +63,7 @@ function showPayment() {
           if (data=="NOTHING FOUND") {
             output.innerHTML = "";
             document.getElementById("success_message").innerHTML = "Ticket already Processed";
+            document.getElementById("success_message").style = "color: #800000";
             document.getElementById("name_display").innerHTML = "You can still send you the ticket to another Email." ;
 
           } else {
@@ -71,7 +72,7 @@ function showPayment() {
   
             document.getElementById("name_display").innerHTML = data["user"][5];
             document.getElementById("user_message").innerHTML = "Eine Email von info@alma-dance.com mit dem Ticket wurde geschickt. Bitte prüft auch deinen Spamordner.";
-            document.getElementById("success_message").innerHTML = "Your Ticket was sent:";
+            document.getElementById("success_message").innerHTML = "Your Ticket was sent";
             document.getElementById("success_message").style = "color: #800000";
             
             emailinput.innerHTML = data["user"][3];
