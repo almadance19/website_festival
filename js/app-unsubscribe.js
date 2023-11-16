@@ -1,5 +1,5 @@
 
-const url = 'https://script.google.com/macros/s/AKfycbz00_Ljo20Nq9eK_v_4dGDjcoYqvqXp-nRhuf0JmQP4gm6LnktG5C1OG33O0C5CKjM/exec'
+const url = 'https://script.google.com/macros/s/AKfycby0bgJuGUwB4ltdEHfAyJed14jHiL4_o1mRU6lvl9UfY2iIKN-Q7az_avwKPFYkyTs/exec';
 
 //get buttons 
 const btn_ticket = document.getElementById('get_ticket_btn');
